@@ -43,6 +43,9 @@
 Русская версия:
 
     python ru_main_graph.py
+
+**ИЛИ скачайте .exe файл из Releases**
+
 ## Инструкция для GUI
 - **Шифрование:**
 
@@ -113,6 +116,9 @@ English version:
 Russian version:
 
     python ru_main_graph.py
+
+**OR download .exe file from Releases**
+
 ## GUI Instructions
 - **Encryption:**
 
