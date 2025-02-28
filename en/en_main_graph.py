@@ -24,7 +24,7 @@ class CryptoApp(ttk.Window):
         super().__init__(themename=bootstrap_theme)
         self.title("Encoder")
         self.geometry("1200x800")
-        self.iconbitmap("pass to your icon")
+        # self.iconbitmap("pass to your icon") if you want personal icon
         self.history = self.load_history()
         self.themes = {'light': {'bootstrap_theme': 'cosmo','text': '#333333','input_bg': '#ffffff','accent': '#007bff'},'dark': {'bootstrap_theme': 'darkly','text': '#ffffff','input_bg': '#343a40','accent': '#00bc8c'}}
         self.create_widgets()
