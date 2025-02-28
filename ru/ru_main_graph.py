@@ -24,7 +24,7 @@ class CryptoApp(ttk.Window):
         super().__init__(themename=bootstrap_theme)
         self.title("Encoder")
         self.geometry("1200x800")
-        self.iconbitmap("путь к вашей иконке")
+        # self.iconbitmap("путь к вашей иконке") если хотите свою иконку
         self.history = self.load_history()
         self.themes = {
             'light': {
